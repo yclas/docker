@@ -6,17 +6,15 @@
 
 2. Clone this repo:
 
-        git clone https://github.com/kotsios5/docker.git
+        git clone https://github.com/open-classifieds/docker.git
 
 3. Build a new image:
 
         cd docker/
         sudo docker build -t oc .
 
-4. Stop apache2 and mysql and run the container:
+4. Run the image:
 
-		sudo service apache2 stop
-		sudo service mysql stop
         sudo docker run -t -i -p 80:80 -p 3306:3306 oc /bin/bash
 
 5. Start apache2, mysql and postfix:
