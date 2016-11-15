@@ -1,4 +1,4 @@
-# Docker for Open Classifieds 
+# Docker for Yclas 
 
 ## Instructions
 
@@ -6,7 +6,7 @@
 
 2. Clone this repo:
 
-        git clone https://github.com/open-classifieds/docker.git
+        git clone https://github.com/yclas/docker.git
 
 3. Build a new image:
 
@@ -25,9 +25,9 @@
 
 7. Load on your browser: 
 
-        http://reoc.lo/install-openclassifieds.php
+        http://reoc.lo/install-yclas.php
 
-8. Install Open Classifieds using these:
+8. Install Yclas using these:
 
         Database name: openclassifieds
         User name: root 
