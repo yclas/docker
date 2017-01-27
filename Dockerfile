@@ -13,4 +13,4 @@ RUN sudo service postfix start
 
 RUN sudo rm -f /var/www/html/index.php
 RUN cd /var/www/html/
-RUN sudo wget https://raw.githubusercontent.com/open-classifieds/openclassifieds2/master/install-openclassifieds.php
+RUN sudo wget https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php
