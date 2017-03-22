@@ -11,6 +11,4 @@ RUN sudo service apache2 start
 RUN sudo service mysql start
 RUN sudo service postfix start
 
-RUN sudo rm -f /var/www/html/index.php
-RUN cd /var/www/html/
-RUN sudo wget https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php
+RUN sudo wget https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php -P /var/www/html
